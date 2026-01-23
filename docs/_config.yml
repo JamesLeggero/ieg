@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: IEG 1.0.2
+title: IEG 1.0.3
 # email: james.m.leggero@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  IEG 1.0
+  IEG 1.0.3
 baseurl: "/ieg" # the subpath of your site, e.g. /blog
-url: "jamesleggero.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jamesleggero.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
