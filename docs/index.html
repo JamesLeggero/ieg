@@ -2,4 +2,8 @@
 layout: default
 title: Home
 ---
-<h1>{{ "Hello World!" | downcase }}</h1>
+<h1>Inclusive Ed with Ruthie Dreyer</h1>
+
+{% capture bio %}{% include bio.md %}{% endcapture %}
+  {{ bio | markdownify }}
+
