@@ -4,8 +4,13 @@ title: Home
 ---
 <h1>Inclusive Ed with Ruthie Dreyer</h1>
 <div id="mainpage">
+    {% include ruthie-image.html %}
     {% capture bio %}{% include bio.md %}{% endcapture %}
   {{ bio | markdownify }}
+  <div id="contact">
+{% capture contact %}{% include contact.md %}{% endcapture %}
+  {{ contact | markdownify }}
+  </div>
 </div>
 
 
