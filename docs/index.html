@@ -3,7 +3,15 @@ layout: default
 title: Home
 ---
 <h1>Inclusive Ed with Ruthie Dreyer</h1>
-
-{% capture bio %}{% include bio.md %}{% endcapture %}
+<div id="mainpage">
+    {% include ruthie-image.html %}
+    {% capture bio %}{% include bio.md %}{% endcapture %}
   {{ bio | markdownify }}
+  <div id="contact">
+{% capture contact %}{% include contact.md %}{% endcapture %}
+  {{ contact | markdownify }}
+  </div>
+</div>
+
+
 
