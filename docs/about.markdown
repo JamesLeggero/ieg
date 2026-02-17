@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+redirect_to: /
 ---
 # About page
 
